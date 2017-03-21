@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+
+    <head>
+        <title>Fahad A. Chaudhry</title>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="I'm a full stack geek with a lot of love for latest technologies. Experienced in Ionic Framework, ASP.NET, JAVA/Android and UI/UX Designing.">
+        <meta name="author" content="Fahad Ashraf Chaudhry">
+        <link rel="shortcut icon" href="assets/images/fev.png">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+        <meta property="og:image" content="http://fahad.feedbot.net/assets/images/fahad.png">
+        <link rel="image_src" href="http://fahad.feedbot.net/assets/images/fahad.png" />
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="1500">
+        <meta property="og:image:height" content="1500">
+        <meta property="og:title" content="Fahad A. Chaudhry" />
+        <meta property="og:url" content="http://fahad.feedbot.net/" />
+        <meta property="og:description" content="I'm a full stack geek with a lot of love for latest technologies. Experienced in Ionic Framework, ASP.NET, JAVA/Android and UI/UX Designing." />
+
+
+        <!-- Global CSS -->
+        <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+
+        <!-- Theme CSS -->
+        <link id="theme-style" rel="stylesheet" href="assets/css/styles-7.css">
+
+        <!-- MY CSS -->
+        <link rel="stylesheet" href="assets/css/myCss.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+        <style media="screen">
+            #dialog {
+                width: 200px;
+                background-color: #28283e;
+                color: white;
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                z-index: 100;
+                padding: 2%;
+                border-radius: 10px;
+                overflow: scroll;
+                margin: 1%;
+                -webkit-animation: fadein 2s;
+                -moz-animation: fadein 2s;
+                -ms-animation: fadein 2s;
+                -o-animation: fadein 2s;
+                animation: fadein 2s;
+                opacity: 1;
+            }
+
+            @keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+            /* Firefox < 16 */
+
+            @-moz-keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+            /* Safari, Chrome and Opera > 12.1 */
+
+            @-webkit-keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+            /* Internet Explorer */
+
+            @-ms-keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+            /* Opera < 12.1 */
+
+            @-o-keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            #dialog button {
+                margin-top: 3%;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- SAVE AS PDF -->
+        <div id="dialog">
+            <center>
+                <p>Thank you for visiting. Press this button to download my resume.</p>
+                <a href="./Fahad_A_Chaudhry.pdf" target="_blank" download><button class="btn btn-danger">Download</button></a>
+                <button class="btn btn-default" id="closeResumeBtn">Close</button>
+            </center>
+        </div>
+
+        <div class="wrapper">
+            <div class="sidebar-wrapper">
+                <div class="profile-container">
+                    <img class="profile" src="assets/images/profile.png" alt="" />
+                    <h1 class="name">Fahad A. Chaudhry</h1>
+                    <h3 class="tagline">Half Stack Developer</h3>
+                    <h3 class="tagline">Full Stack Geek</h3>
+                </div>
+                <!--//profile-container-->
+
+                <div class="contact-container container-block">
+                    <ul class="list-unstyled contact-list">
+                        <li class="separator"></li>
+                        <li class="email"><i class="fa fa-envelope"></i><a href="mailto: sh.fahadashraf@gmail.com">sh.fahadashraf@gmail.com</a></li>
+                        <li class="phone"><i class="fa fa-phone"></i><a href="tel:03249496639">+92 324 949 6639</a></li>
+                        <li class="website"><i class="fa fa-globe"></i><a href="http://fahad.feedbot.net" target="_blank">fahad.feedbot.net</a></li>
+                    </ul>
+
+                    <center>
+                        <div class="contact-container container-block">
+                            <a target="_blank" style="padding: 5%;" href="http://instagram.com/FahadAChaudhry"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" style="padding: 5%;" href="https://www.linkedin.com/in/fahadachaudhry"><i class="fa fa-linkedin"></i></a>
+                            <a target="_blank" style="padding: 5%;" href="https://www.behance.net/fahadachaudhry"><i class="fa fa-behance"></i></a>
+                            <a target="_blank" style="padding: 5%;" href="https://www.twitter.com/fahadachaudhry"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" style="padding: 5%;" href="https://www.facebook.com/FahadAChaudhry"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" style="padding: 5%;" href="http://medium.com/@fahadachaudhry"><i class="fa fa-medium"></i></a>
+                            <a target="_blank" style="padding: 5%;" href="https://www.youtube.com/channel/UC436zNmchkcHMccHxORkj4g"><i class="fa fa-youtube-play"></i></a>
+                            <a target="_blank" style="padding: 5%;" href="http://aikpencil.com/about.html"><i class="fa fa-globe"></i></a>
+                        </div>
+                        <hr/>
+                    </center>
+
+                </div>
+                <!--//contact-container-->
+                <div class="education-container container-block">
+                    <h2 class="container-block-title center">Education</h2>
+                    <hr/>
+                    <div class="item">
+                        <h4 class="degree">BS in Information Technology</h4>
+                        <h5 class="meta">PUCIT</h5>
+                        <div class="time">2013 - 2017</div>
+                    </div>
+                    <div class="item">
+                        <h4 class="degree">FSc. Pre Engineering</h4>
+                        <h5 class="meta">Pak Fazaia College</h5>
+                        <div class="time">2011 - 2013</div>
+                    </div>
+
+                    <!--
+                    <div class="item">
+                        <h4 class="degree">Matriculation</h4>
+                        <h5 class="meta">Garrison Boys’ High School & Intermediate College</h5>
+                        <div class="time">2011</div>
+                    </div>
+                  -->
+                    <hr/>
+                </div>
+                <!--//education-container-->
+
+                <div class="languages-container container-block">
+                    <h2 class="container-block-title center">Languages</h2>
+                    <ul class="list-unstyled interests-list">
+                        <li class="separator"></li>
+                        <li>English <span class="lang-desc">(Fluent)</span></li>
+                        <li>Urdu <span class="lang-desc">(Native)</span></li>
+                        <li class="separator"></li>
+                    </ul>
+                </div>
+                <!--//interests-->
+                <div class="interests-container container-block">
+                    <h2 class="container-block-title center">Interests</h2>
+                    <ul class="list-unstyled interests-list">
+                        <li class="separator"></li>
+                        <li>Photography</li>
+                        <li>Arts and designing</li>
+                        <li>Book reading</li>
+                        <li class="separator"></li>
+                    </ul>
+                </div>
+                <!--//Tools-->
+                <div class="interests-container container-block">
+                    <h2 class="container-block-title center">Tools</h2>
+                    <ul class="list-unstyled interests-list">
+                        <li class="separator"></li>
+
+                        <li><b>IDEs</b></li>
+                        <li>Visual Studio</li>
+                        <li>NetBeans</li>
+
+                        <li class="separator"></li>
+
+                        <li><b>Designing</b></li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Sketch 3.0</li>
+
+                        <li class="separator"></li>
+
+                        <li><b>Teamwork and Management</b></li>
+                        <li>Slack</li>
+                        <li>Trello</li>
+                        <li>Jira Agile</li>
+
+                        <li class="separator"></li>
+
+                        <li><b>Editors</b></li>
+                        <li>Atom</li>
+
+                        <li class="separator"></li>
+                    </ul>
+                </div>
+                <!--//interests-->
+
+            </div>
+            <!--//sidebar-wrapper-->
+
+            <div class="main-wrapper">
+
+                <section class="section summary-section">
+                    <h2 class="section-title"><i class="fa fa-user"></i>About me</h2>
+                    <div class="summary">
+                        <p>I'm a full stack geek with a lot of love for latest technologies. Experienced in <b>Ionic Framework</b>, <b>ASP.NET</b>, <b>JAVA/Android</b> and <b>UI/UX Designing</b>. I’m an excellent communicator and focus on using my interpersonal
+                            skills to build state-of-the-art softwares and user interfaces!</p>
+                    </div>
+                    <!--//summary-->
+                </section>
+                <!--//section-->
+
+                <section class="section experiences-section">
+                    <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Web Developer</h3>
+                                <div class="time">December 2015 – Present</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company">Aik Pencil UX, Lahore</div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                            <p>While working here, I <b>developed the website from scratch</b>. Along with designing User Interfaces and User Experiences for multiple projects.</p>
+                        </div>
+                        <!--//details-->
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Lead Developer</h3>
+                                <div class="time">2016 – 2017</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company">PUCIT ACM Student Chapter</div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                            <p>Acting as a Lead Developer, my job was to supervise the creation and maintenance of PASC's website built on <b>Wordpress</b> CMS.</p>
+                        </div>
+                        <!--//details-->
+                    </div>
+
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Graphic Designer</h3>
+                                <div class="time">2015 – 2016</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company">PUCIT ACM Student Chapter</div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                            <p>As a Graphic Designer, my job at PASC was to <b>design eye-catching designs</b> that represented the chapter and it’s ideology for various. Events as big as SoftExpo’16.</p>
+
+                        </div>
+                        <!--//details-->
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">UI/UX Designer</h3>
+                                <div class="time">July 2015 – October 2015</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company">Trequant | Incubated in Plan9, Lahore, Pakistan</div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                            <p>At Trequant, my job was to create the <b>interface for their Bio-tech prototype</b> - which consisted of a wrist-watch. Also, my job was to make <b>designs for their Social Media Marketing campaign</b> and for their website.</p>
+                        </div>
+                        <!--//details-->
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Web Development Intern</h3>
+                                <div class="time">September 2013 – March 2014</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company">Geniusity, Lahore</div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                            <p>While working for Geniusity, I learned languages such as <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>. I also had my Graphics designing training and worked my way towards the field of <b>UI/UX Development</b>.</p>
+                        </div>
+                        <!--//details-->
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Content Generation and Designing</h3>
+                                <div class="time">April 2014 – February 2015</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company">Humans of PUCIT, Lahore</div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                            <p>It was a personal project that served as an online publication and focused on the ins-and-outs of my University. My job was to <b>conduct interviews</b>, <b>generate content</b> and <b>make designs</b>.</p>
+                        </div>
+                        <!--//details-->
+                    </div>
+
+                    <!--//item-->
+
+                </section>
+                <!--//section-->
+
+                <section class="section projects-section">
+                    <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                    <div class="intro">
+                        <p>Here a some of my projects.</p>
+                    </div>
+
+                    <!--//intro-->
+                    <div class="item">
+                        <span class="project-title"><a target="_blank" href="http://aikpencil.com/"><b>Aik Pencil UX</b></a></span> - <span class="project-tagline">AIK PENCIL UX is a UI/UX Agency that deals with designing and development of web and mobile interfaces.</span>
+                    </div>
+                    <!--//intro-->
+                    <div class="item">
+                        <span class="project-title"><a target="_blank" href="#"><b>Snazzout</b></a></span> - <span class="project-tagline">A hybrid application, made on <b>Ionic Framework</b> that allows users to search different brands, rate/review them and stay updated to their latest news.</span>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a target="_blank" href="http://pucit.acm.org/"><b>PASC Website</b></a></span> - <span class="project-tagline">PUCIT ACM Student Chapter Website for thier Events/Contact/Updates and Team information.</span>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a target="_blank" href="https://www.behance.net/fahadachaudhry"><b>UI/UX/Designing Projects</b></a></span> - <span class="project-tagline">Some of my UI/UX and Designing related work on Behance.</span>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a target="_blank" href="http://feedbot.net"><b>Feedbot</b></a></span> - <span class="project-tagline">A very standard news publication website, developed on <b>ASP.NET</b> that allows the users to select from predefined categories and get news related to those categories.</span>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a target="_blank" href="http://webdealersolutions.com"><b>WebDealer Solutions INC</b></a></span> - <span class="project-tagline">Static website made for a Canadian Firm, mainly using Pure <b>JavaScript</b>, <b>HTML</b>, <b>CSS 3</b> and <b>Twitter Bootstrap</b>.</span>
+                    </div>
+                    <!--//item-->
+                </section>
+                <!--//section-->
+
+                <section class="skills-section section">
+                    <h2 class="section-title"><i class="fa fa-rocket"></i>Development Skills</h2>
+                    <div class="skillset">
+
+                        <div class="item">
+                            <h3 class="level-title">ASP.NET</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="95%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">HTML5 &amp; CSS</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="90%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Ionic Framework</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="85%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">SQL</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="80%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">JAVA/Android</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="80%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">JavaScript</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="80%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">AngularJS</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="75%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Bootstrap</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="70%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Wordpress</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="65%">
+                                </div>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+
+                    </div>
+                </section>
+                <!--//skills-section-->
+
+            </div>
+            <!--//main-body-->
+        </div>
+
+        <div class="wrapper" style="padding: 60px;">
+            <!-- YOUTUBE TUTS EMBED CODE -->
+            <section class="skills-section section">
+                <h2 style="color: white;" class="section-title"><i class="fa fa-video-camera"></i>My Tutorials</h2>
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-type="article-full" data-card-theme="dark">
+                            <h4><a href="https://www.youtube.com/watch?v=UcDjrglFDeY&t=200s">Auto Reload HTML Pages using lite-server by johnpapa | Aik Pencil UX</a></h4>
+                            <p>This tutorial is about a package called lite-server by johnpapa. It allows you to reload your...</p>
+                        </blockquote>
+                    </div>
+
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-type="article-full" data-card-theme="dark">
+                            <h4><a href="https://www.youtube.com/watch?v=2n6oCSYH2mw">How To Make A DOPE User Interface | Aik Pencil UX</a></h4>
+                            <p>Don't forget to subscribe to keep updated with the latest UI/UX Trends! For more, please visit; www.aikPencil.com Follow Aik Pencil on Twitter; www.twitter.com/AikPencil...</p>
+                        </blockquote>
+                    </div>
+
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-type="article-full" data-card-theme="dark">
+                            <h4><a href="https://www.youtube.com/watch?v=4GmsznJnSSI">App UI/UX Design Time Lapse - Aik Pencil UX</a></h4>
+                            <p>Don't forget to subscribe to keep updated with the latest UI/UX Trends! For more, please visit; www.aikPencil.com Follow Aik Pencil on Twitter; www.twitter.com/AikPencil...</p>
+                        </blockquote>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!-- MEDIUM BLOGS EMBED CODE -->
+            <section class="skills-section section">
+                <h2 style="color: white;" class="section-title"><i class="fa fa-file-text-o"></i>My Articles</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-type="article-full" data-card-theme="dark">
+                            <h4><a href="https://medium.com/@fahadachaudhry/auto-reload-html-pages-using-lite-server-by-johnpapa-b962911265a5#.b97xc1xas">Auto Reload Html Pages using lite-server...</a></h4>
+                            <p>Don't you just hate it when you sit down to write some front-end code and end up refreshing your browser over and over again to see the changes? Well...</p>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-theme="dark" data-card-type="article-full">
+                            <h4><a href="https://medium.com/@fahadachaudhry/is-it-too-late-to-learn-angularjs-1-x-cd32d085f0eb#.8eoo30gwj">Is it too late to learn AngularJS 1.x?</a></h4>
+                            <p>Are you one of those people who planned to learn AngularJS some time ago but can't seem to squeeze time out of your busy routine? Or maybe you intend to start learning it this coming...</p>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-theme="dark" data-card-type="article-full">
+                            <h4><a href="https://medium.com/@fahadachaudhry/learning-angularjs-basics-part-1-489c699bd903#.k2ln45o59">Learning AngularJS Basics | Part 1</a></h4>
+                            <p>As the name suggests, AngularJS is a JavaScript framework that extends HTML using directives and binds to data using expressions. If you don’t know what directives or expressions are...</p>
+                        </blockquote>
+                    </div>
+
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-theme="dark" data-card-type="article-full">
+                            <h4><a href="https://medium.com/@fahadachaudhry/learning-angularjs-basics-part-2-6fbe1d72a040#.may2k8n9v">Learning AngularJS Basics | Part 2</a></h4>
+                            <p>In this lesson, we are intended to learn the following: AngularJS Module and AngularJS Controller. A module is a container for different parts of an application. Its job is to define...</p>
+                        </blockquote>
+                    </div>
+
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-theme="dark" data-card-type="article-full">
+                            <h4><a href="https://medium.com/@fahadachaudhry/learning-angularjs-basics-part-3-7097654b2c0a#.d37msc734">Learning AngularJS Basics | Part 3</a></h4>
+                            <p>As we all know after the last lesson, that whenever you write a controller in AngularJS, it looks something like this...</p>
+                        </blockquote>
+                    </div>
+
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-theme="dark" data-card-type="article-full">
+                            <h4><a href="https://medium.com/@fahadachaudhry/did-facebook-just-change-its-fonts-d42890459b69#.ui5j8tedt">Did Facebook just change its fonts?</a></h4>
+                            <p>Notice it or not, Facebook has been experimenting new fonts across the platform, based on spreading tweets! And if these speculations (on twitter) are correct, Facebook is planning...</p>
+                        </blockquote>
+                    </div>
+
+                    <div class="col-md-4">
+                        <blockquote class="embedly-card" data-card-key="30b79b52f3974fbcbfeb51d5b08b9c53" data-card-controls="0" data-card-theme="dark" data-card-type="article-full">
+                            <h4><a href="https://medium.com/@fahadachaudhry/5-of-the-best-looking-and-free-resume-templates-on-the-internet-f18fc872115f#.p6lvsm4c5">5 of the BEST LOOKING and FREE Resume templates on the internet!</a></h4>
+                            <p>Having an online Resume is always a good idea. It presents yourself as a professional who is up-to-date with the modern technological trends...</p>
+                        </blockquote>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+
+        <footer class="footer">
+            <div class="text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <!--<small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>-->
+            </div>
+            <!--//container-->
+        </footer>
+        <!--//footer-->
+
+        <!-- Javascript -->
+        <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <!-- custom js -->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+
+        <script type="text/javascript">
+            $("#closeResumeBtn").click(function() {
+                $("#dialog").fadeOut("slow", function() {
+                    // Animation complete.
+                });
+            });
+        </script>
+
+    </body>
+
+</html>
