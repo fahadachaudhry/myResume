@@ -57,4 +57,4 @@ A very standard news publication website, developed on __ASP.NET__ that allows t
 Static website made for a Canadian Firm, mainly using Pure __JavaScript, HTML, CSS 3__ and __Twitter Bootstrap__.
 
 ## CodePotato
-A blog website made with __Ruby__ using __Jekyll__ mainly used to publish all my __articles__, __video tutorials__ and __Free Web Templates__
+A blog website made with __Ruby__ using __Jekyll__ mainly used to publish all my __articles__, __video tutorials__ and __Free Web Templates__g
