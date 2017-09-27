@@ -56,18 +56,18 @@ p {
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
-    background: #343642; /* fallback for old browsers */
-    /*background: -webkit-linear-gradient(to top, #101010 , #343642);
-    background: linear-gradient(to top, #101010 , #343642);*/
+    background: #47384c; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to top, #101010 , #47384c);
+    background: linear-gradient(to top, #101010 , #47384c);*/
 
 
 }
 
 .sidebar-wrapper {
 
-  background: #343642; /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to bottom, #101010 , #343642);
-  background: linear-gradient(to bottom, #101010 , #343642);*/
+  background: #47384c; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to bottom, #101010 , #47384c);
+  background: linear-gradient(to bottom, #101010 , #47384c);*/
 
 
     width: 290px;
@@ -203,7 +203,7 @@ p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: #343642;
+    color: #47384c;
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -223,7 +223,7 @@ p {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #343642;
+    background: #47384c;
     text-align: center;
     padding-top: 8px;
     font-size: 16px;
@@ -298,7 +298,7 @@ p {
 
 .skillset .level-bar-inner {
     height: 12px;
-    background: #343642;
+    background: #47384c;
 }
 
 .footer {
@@ -381,7 +381,7 @@ p {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #343642;
+    background: #47384c;
     text-align: center;
     padding-top: 8px;
     font-size: 16px;
@@ -393,7 +393,7 @@ p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: #343642;
+    color: #47384c;
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -409,7 +409,7 @@ h5 {
 
 #dialog {
     width: 200px;
-    background-color: #343642;
+    background-color: #47384c;
     color: white;
     position: fixed;
     bottom: 0;
